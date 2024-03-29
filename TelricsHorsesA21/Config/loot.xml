@@ -1,0 +1,10 @@
+<configs>
+<append xpath="/lootcontainers/lootgroup[@name='groupRareAutomotive']">
+	<item name="vehicleLightBrownHorsePlaceable" prob=".25"/>
+	<item name="vehicleDarkBrownHorsePlaceable" prob=".25"/>
+	<item name="vehicleMilkBrownHorsePlaceable" prob=".25"/>
+	<item name="vehicleWhiteDotHorsePlaceable" prob=".25"/>
+	<item name="vehicleWhiteHorsePlaceable" prob=".25"/>
+	<item name="vehicleYellowHorsePlaceable" prob=".25"/>
+</append>
+</configs>

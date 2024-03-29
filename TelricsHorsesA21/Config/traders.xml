@@ -1,0 +1,10 @@
+<configs>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupVehicles']"> <!-- T0 -->
+			<item name="vehicleLightBrownHorsePlaceable"/>
+			<item name="vehicleDarkBrownHorsePlaceable"/>
+			<item name="vehicleMilkBrownHorsePlaceable"/>
+			<item name="vehicleWhiteDotHorsePlaceable"/>
+			<item name="vehicleWhiteHorsePlaceable"/>
+			<item name="vehicleYellowHorsePlaceable"/>
+</append>
+</configs>

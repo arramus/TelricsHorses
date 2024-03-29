@@ -1,0 +1,46 @@
+<configs>
+<append xpath="/buffs">
+		<!-- Horse Animation - Thank you Zilox for giving permission to use this effective approach for A21 updates -->
+
+	<buff name="buffHorseMovement" hidden="true">
+		<damage_type value="heat"/>
+		<duration value="0"/>
+			<effect_group> <!-- Idle >>> to walk -->
+                <requirement name="CVarCompare" cvar="$RFood" operation="Equals" value=".002"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false" transform_path="Horse-Idle"/>    
+                <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false" transform_path="Horse-Walk"/>    
+                <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="true" transform_path="Horse-Run"/>   
+            </effect_group>
+            <effect_group> <!-- walk >>> run -->
+                <requirement name="CVarCompare" cvar="$RFood" operation="Equals" value=".001"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false" transform_path="Horse-Idle"/>    
+                <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="true" transform_path="Horse-Walk"/>    
+                <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false" transform_path="Horse-Run"/>   
+            </effect_group>
+            <effect_group> <!-- run >>> idle -->
+                <requirement name="CVarCompare" cvar="$RFood" operation="Equals" value="1"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="true" transform_path="Horse-Idle"/>    
+                <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false" transform_path="Horse-Walk"/>    
+                <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false" transform_path="Horse-Run"/>
+            </effect_group>
+	</buff>	
+	<buff name="buffHorseMovementPlayer" hidden="true">
+		<damage_type value="heat"/>
+		<stack_type value="replace"/>
+		<update_rate value=".1"/>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="_vehicleFood" operation="Equals" value="0"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="selfAOE" range="0.1" cvar="$RFood" operation="set" value="1"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="_vehicleFood" operation="Equals" value="0.002"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="selfAOE" range="0.1" cvar="$RFood" operation="set" value=".002"/> 
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="_vehicleFood" operation="Equals" value=".001"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="selfAOE" range="0.1" cvar="$RFood" operation="set" value=".001"/>
+		</effect_group>
+	</buff>
+
+</append>
+</configs>

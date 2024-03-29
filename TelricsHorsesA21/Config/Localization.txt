@@ -1,0 +1,33 @@
+Key,english
+------------------Colors: 
+					Player Text: Beige [deceae]
+					Vendor Trash: [ABABAB]
+					Common Quality: NONE
+					Uncommon Quality: [6FF05C]
+					Rare Quality: [6ABAEB]
+					Epic Quality: [C976F3]
+					Legendary Quality: [DF9B00]
+					
+					Other:Orange [e7a729] Blue [2b87eb] Pink [ffaeee] Light Blue [aee5ff] 
+------------------
+------------------Items-----------------
+vehicleLightBrownHorsePlaceable,"Light Brown Horse"
+vehicleLightBrownHorsePlaceableDesc,"Your very own horse."
+vehicleDarkBrownHorsePlaceable,"Dark Brown Horse"
+vehicleDarkBrownHorsePlaceableDesc,"Your very own horse."
+vehicleMilkBrownHorsePlaceable,"Milk Brown Horse"
+vehicleMilkBrownHorsePlaceableDesc,"Your very own horse."
+vehicleWhiteDotHorsePlaceable,"White Dotted Horse"
+vehicleWhiteDotHorsePlaceableDesc,"Your very own horse."
+vehicleWhiteHorsePlaceable,"White Horse"
+vehicleWhiteHorsePlaceableDesc,"Your very own horse."
+vehicleYellowHorsePlaceable,"Yellow Horse"
+vehicleYellowHorsePlaceableDesc,"Your very own horse."
+
+------------------Entities--------------
+vehicleLightBrownHorse,"Light Brown Horse"
+vehicleDarkBrownHorse,"Dark Brown Horse"
+vehicleMilkBrownHorse,"Milk Brown Horse"
+vehicleWhiteDotHorse,"White Dotted Horse"
+vehicleWhiteHorse,"White Horse"
+vehicleYellowHorse,"Yellow Horse"
