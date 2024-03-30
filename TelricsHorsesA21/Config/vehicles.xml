@@ -105,28 +105,28 @@
 			<property name="foodDrain" value=".001,.002"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
-								,
-								,
-								0, .7, 1, .1, -9, .12, .1, ,
-								-.4, -.02, .7, .7, -.2, 9, .2, 
-								"/>
+								Vehicles/Suv/horseIdle,
+								Vehicles/Suv/horseIdle,
+								0, .7, 1, .1, -9, .12, .1, horseIdle, 
+								-.4, -.02, .7, .7, -.2, 9, .2, SoundEffectHorseGallop
+								"/>    <!-- horseIdle was horse_gallop -->
 			<property name="gear2" value="
 								500,2500, -2000,1000,2000, 600,2200,800,
-								,
-								,
-								-.25, -.05, .2, .4, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear3" value="
 								500,2500, -2000,1000,2000, 500,2200,1000,
-								,
-								,
-								-.28, -.07, .3, .6, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear4" value="
 								500,2500, -2000,1000,2000, 500,9999,9999,
-								,
-								,
-								-.31, -.08, .6, .9, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="sound_start" value=""/>
 			<property name="sound_shut_off" value=""/>
@@ -258,28 +258,28 @@
 			<property name="foodDrain" value=".001,.002"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
-								,
-								,
-								0, .7, 1, .1, -9, .12, .1, ,
-								-.4, -.02, .7, .7, -.2, 9, .2, 
-								"/>
+								Vehicles/Suv/horseIdle,
+								Vehicles/Suv/horseIdle,
+								0, .7, 1, .1, -9, .12, .1, horseIdle, 
+								-.4, -.02, .7, .7, -.2, 9, .2, SoundEffectHorseGallop
+								"/>    <!-- horseIdle was horse_gallop -->
 			<property name="gear2" value="
 								500,2500, -2000,1000,2000, 600,2200,800,
-								,
-								,
-								-.25, -.05, .2, .4, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear3" value="
 								500,2500, -2000,1000,2000, 500,2200,1000,
-								,
-								,
-								-.28, -.07, .3, .6, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear4" value="
 								500,2500, -2000,1000,2000, 500,9999,9999,
-								,
-								,
-								-.31, -.08, .6, .9, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="sound_start" value=""/>
 			<property name="sound_shut_off" value=""/>
@@ -411,28 +411,28 @@
 			<property name="foodDrain" value=".001,.002"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
-								,
-								,
-								0, .7, 1, .1, -9, .12, .1, ,
-								-.4, -.02, .7, .7, -.2, 9, .2, 
-								"/>
+								Vehicles/Suv/horseIdle,
+								Vehicles/Suv/horseIdle,
+								0, .7, 1, .1, -9, .12, .1, horseIdle, 
+								-.4, -.02, .7, .7, -.2, 9, .2, SoundEffectHorseGallop
+								"/>    <!-- horseIdle was horse_gallop -->
 			<property name="gear2" value="
 								500,2500, -2000,1000,2000, 600,2200,800,
-								,
-								,
-								-.25, -.05, .2, .4, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear3" value="
 								500,2500, -2000,1000,2000, 500,2200,1000,
-								,
-								,
-								-.28, -.07, .3, .6, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear4" value="
 								500,2500, -2000,1000,2000, 500,9999,9999,
-								,
-								,
-								-.31, -.08, .6, .9, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="sound_start" value=""/>
 			<property name="sound_shut_off" value=""/>
@@ -564,28 +564,28 @@
 			<property name="foodDrain" value=".001,.002"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
-								,
-								,
-								0, .7, 1, .1, -9, .12, .1, ,
-								-.4, -.02, .7, .7, -.2, 9, .2, 
-								"/>
+								Vehicles/Suv/horseIdle,
+								Vehicles/Suv/horseIdle,
+								0, .7, 1, .1, -9, .12, .1, horseIdle, 
+								-.4, -.02, .7, .7, -.2, 9, .2, SoundEffectHorseGallop
+								"/>    <!-- horseIdle was horse_gallop -->
 			<property name="gear2" value="
 								500,2500, -2000,1000,2000, 600,2200,800,
-								,
-								,
-								-.25, -.05, .2, .4, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear3" value="
 								500,2500, -2000,1000,2000, 500,2200,1000,
-								,
-								,
-								-.28, -.07, .3, .6, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear4" value="
 								500,2500, -2000,1000,2000, 500,9999,9999,
-								,
-								,
-								-.31, -.08, .6, .9, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="sound_start" value=""/>
 			<property name="sound_shut_off" value=""/>
@@ -717,28 +717,28 @@
 			<property name="foodDrain" value=".001,.002"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
-								,
-								,
-								0, .7, 1, .1, -9, .12, .1, ,
-								-.4, -.02, .7, .7, -.2, 9, .2, 
-								"/>
+								Vehicles/Suv/horseIdle,
+								Vehicles/Suv/horseIdle,
+								0, .7, 1, .1, -9, .12, .1, horseIdle, 
+								-.4, -.02, .7, .7, -.2, 9, .2, SoundEffectHorseGallop
+								"/>    <!-- horseIdle was horse_gallop -->
 			<property name="gear2" value="
 								500,2500, -2000,1000,2000, 600,2200,800,
-								,
-								,
-								-.25, -.05, .2, .4, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear3" value="
 								500,2500, -2000,1000,2000, 500,2200,1000,
-								,
-								,
-								-.28, -.07, .3, .6, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear4" value="
 								500,2500, -2000,1000,2000, 500,9999,9999,
-								,
-								,
-								-.31, -.08, .6, .9, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="sound_start" value=""/>
 			<property name="sound_shut_off" value=""/>
@@ -870,28 +870,28 @@
 			<property name="foodDrain" value=".001,.002"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
-								,
-								,
-								0, .7, 1, .1, -9, .12, .1, ,
-								-.4, -.02, .7, .7, -.2, 9, .2, 
-								"/>
+								Vehicles/Suv/horseIdle,
+								Vehicles/Suv/horseIdle,
+								0, .7, 1, .1, -9, .12, .1, horseIdle, 
+								-.4, -.02, .7, .7, -.2, 9, .2, SoundEffectHorseGallop
+								"/>    <!-- horseIdle was horse_gallop -->
 			<property name="gear2" value="
 								500,2500, -2000,1000,2000, 600,2200,800,
-								,
-								,
-								-.25, -.05, .2, .4, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear3" value="
 								500,2500, -2000,1000,2000, 500,2200,1000,
-								,
-								,
-								-.28, -.07, .3, .6, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="gear4" value="
 								500,2500, -2000,1000,2000, 500,9999,9999,
-								,
-								,
-								-.31, -.08, .6, .9, -1, 1, .1, 
+								Vehicles/Suv/SoundEffectHorseGallop,
+								Vehicles/Suv/SoundEffectHorseGallop,
+								-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/SoundEffectHorseGallop
 								"/>
 			<property name="sound_start" value=""/>
 			<property name="sound_shut_off" value=""/>

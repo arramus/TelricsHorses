@@ -20,7 +20,7 @@
 <SoundDataNode name="SoundEffectHorseGallop">
 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-	<AudioClip ClipName="#@modfolder:Resources/TelricsHorsesA21.unity3d?SoundEffectHorseGallop"/>
+	<AudioClip ClipName="#@modfolder:Resources/TelricsHorsesA21.unity3d?SoundEffectHorseGallop" Loop="true"/>
 	<Priority name="3"/>
 	<maxVoicesPerEntity value="10"/>
   <LowestPitch name="1"/>
@@ -48,6 +48,12 @@
   <LowestPitch name="1"/>
   <HighestPitch name="1.05"/>
 	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="50"/> <MaxRepeatRate value=".27"/> 
+</SoundDataNode>
+
+		<!-- Horse Idle Snort -->
+<SoundDataNode name="horseIdle"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+	<AudioClip ClipName="#@modfolder:Resources/TelricsHorseIdleA21.unity3d?HorseIdal" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> 
 </SoundDataNode>
 
 </append>
